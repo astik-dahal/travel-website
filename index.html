@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles/styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <script defer src="./javascript/app.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <p>Traveller.</p>
+      </div>
+      
+      <nav class="navbar-links">
+        <ul class="nav-items">
+          <li class="nav-item"><a href="#hero">Home</a></li>
+          <li class="nav-item"><a href="#explore">Explore</a></li>
+          <li class="nav-item"><a href="#travel">Travel</a></li>
+          <li class="nav-item"><a href="#blogs">Blog</a></li>
+        </ul>
+      </nav>
+      <a href="#!" class="nav-toggle">
+        <span class="bar bar-a"></span>
+        <span class="bar bar-b"></span>
+        <span class="bar bar-c"></span>
+      </a>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero__content">
+        <h1 class="hero__title">
+          Let's make your best trip ever
+        </h1>
+        <p class="hero__desc">
+          The best travel company for your journey
+        </p>
+        <div class="hero__cta">
+          <a href="#explore" class="explore-btn btn btn--primary ">Explore Now!</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="popular" id="explore">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">
+          Popular Destinations
+        </h2>
+        <span class="underline"></span>
+        <p class="section-desc">
+          From historical cities to natural splendours, come see the best of
+          world!
+        </p>
+      </div>
+      <div class="toggle-buttons">
+        <div class="toggle-button toggle-button-prev popular-button-prev">
+          <span>
+            <</span> </div> <div class="toggle-button toggle-button-next popular-button-next"><span>
+                >
+              </span></div>
+      </div>
+      <div class="section-content">
+        <div class="swiper-container swiper-popular">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="popular-card">
+                <div class="pc__img-cont">
+                  <img
+                  src="./images/millenium_bridge.jpg"
+                    class="popular-card-img" />
+                </div>
+                <div class="pc__content">
+                  <h3 class="pc__title">Millenium Bridge</h3>
+                  <p class="pc__desc">London, United Kingdom</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="popular-card">
+                <div class="pc__img-cont">
+                  <img
+                  src="./images/mounteverest.jpeg"
+                    class="popular-card-img" />
+                </div>
+                <div class="pc__content">
+                  <h3 class="pc__title">Mount Everest</h3>
+                  <p class="pc__desc">Solukhumbu, Nepal</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="popular-card">
+                <div class="pc__img-cont">
+                  <img
+                  src="./images/saharadesert.jpeg"
+                      class="popular-card-img" />
+                </div>
+                <div class="pc__content">
+                  <h3 class="pc__title">Sahara Desert</h3>
+                  <p class="pc__desc">Merzouga, Morocco</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="popular-card">
+                <div class="pc__img-cont">
+                  <img
+                  src="./images/athens.jpeg"
+                    class="popular-card-img" />
+                </div>
+                <div class="pc__content">
+                  <h3 class="pc__title">Athens</h3>
+                  <p class="pc__desc">Athens, Greece</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="popular-card">
+                <div class="pc__img-cont">
+                  <img
+                  src="./images/paris_eiffel.jpg"
+                    class="popular-card-img" />
+                </div>
+                <div class="pc__content">
+                  <h3 class="pc__title">Eiffel Tower</h3>
+                  <p class="pc__desc">Paris, Europe</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="popular-card">
+                <div class="pc__img-cont">
+                  <img
+                  src="./images/saharadesert.jpeg"
+                    class="popular-card-img" />
+                </div>
+                <div class="pc__content">
+                  <h3 class="pc__title">Sahara Desert</h3>
+                  <p class="pc__desc">Merzouga, Morocco</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="popular-card">
+                <div class="pc__img-cont">
+                  <img
+                  src="./images/pokhara.jpg"
+                    class="popular-card-img" />
+                </div>
+                <div class="pc__content">
+                  <h3 class="pc__title">Pokhara</h3>
+                  <p class="pc__desc">Pokhara, Nepal</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="special" id="travel">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">
+          Special Offers
+        </h2>
+        <span class="underline"></span>
+        <p class="section-desc">
+          Check out our special offer tour!
+        </p>
+      </div>
+      <div class="section-content">
+        <div class="swiper-container swiper-offers">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="offers-card">
+                <div class="offers-card-container">
+                  <div class="offers-card-top">
+                    <img class="offers-card-image" src="./images/agra.jpeg" alt="">
+                  </div>
+                  <div class="offers-card-bottom">
+                    <div class="offers-card-title">
+                      Agra, India
+                    </div>
+                    <div class="offers-card-rating">
+
+                    </div>
+                    <div class="offers-card-pricing">
+                      <div class="from-price">
+                        <p>From</p>
+                        <span class="amount">$500</span>
+                      </div>
+                      <a class="details-btn btn--primary">
+                        details
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="offers-card">
+                <div class="offers-card-container">
+                  <div class="offers-card-top">
+                    <img class="offers-card-image" src="./images/athens.jpeg" alt="">
+                  </div>
+                  <div class="offers-card-bottom">
+                    <div class="offers-card-title">
+                      Athens, Greece
+                    </div>
+                    <div class="offers-card-rating">
+
+                    </div>
+                    <div class="offers-card-pricing">
+                      <div class="from-price">
+                        <p>From</p>
+                        <span class="amount">$800</span>
+                      </div>
+                      <a class="details-btn btn--primary">
+                        details
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="offers-card">
+                <div class="offers-card-container">
+                  <div class="offers-card-top">
+                    <img class="offers-card-image" src="./images/istanbul.jpeg" alt="">
+                  </div>
+                  <div class="offers-card-bottom">
+                    <div class="offers-card-title">
+                      Istanbul, Turkey
+                    </div>
+                    <div class="offers-card-rating">
+
+                    </div>
+                    <div class="offers-card-pricing">
+                      <div class="from-price">
+                        <p>From</p>
+                        <span class="amount">$600</span>
+                      </div>
+                      <a class="details-btn btn--primary">
+                        details
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="offers-card">
+                <div class="offers-card-container">
+                  <div class="offers-card-top">
+                    <img class="offers-card-image" src="./images/pokhara.jpg" alt="">
+                  </div>
+                  <div class="offers-card-bottom">
+                    <div class="offers-card-title">
+                      Pokhara, Nepal
+                    </div>
+                    <div class="offers-card-rating">
+
+                    </div>
+                    <div class="offers-card-pricing">
+                      <div class="from-price">
+                        <p>From</p>
+                        <span class="amount">$400</span>
+                      </div>
+                      <a class="details-btn btn--primary">
+                        details
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="offers-card">
+                <div class="offers-card-container">
+                  <div class="offers-card-top">
+                    <img class="offers-card-image" src="./images/rajasthan.jpg" alt="">
+                  </div>
+                  <div class="offers-card-bottom">
+                    <div class="offers-card-title">
+                      Rajasthan, India
+                    </div>
+                    <div class="offers-card-rating">
+
+                    </div>
+                    <div class="offers-card-pricing">
+                      <div class="from-price">
+                        <p>From</p>
+                        <span class="amount">$500</span>
+                      </div>
+                      <a class="details-btn btn--primary">
+                        details
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="offers-card">
+                <div class="offers-card-container">
+                  <div class="offers-card-top">
+                    <img class="offers-card-image" src="./images/phuket.jpg" alt="">
+                  </div>
+                  <div class="offers-card-bottom">
+                    <div class="offers-card-title">
+                      Phuket, Thailand
+                    </div>
+                    <div class="offers-card-rating">
+
+                    </div>
+                    <div class="offers-card-pricing">
+                      <div class="from-price">
+                        <p>From</p>
+                        <span class="amount">$350</span>
+                      </div>
+                      <a class="details-btn btn--primary">
+                        details
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- Add Arrows -->
+          <div class="offers-toggle">
+            <div class="toggle-button toggle-button-prev offers-button-prev">
+              <span><</span> 
+            </div> 
+            <div class="toggle-button toggle-button-next offers-button-next">
+              <span> > </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="blogs" id="blogs">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">
+          Our Blogs
+        </h2>
+        <span class="underline"></span>
+        <p class="section-desc">
+          An insight to the incredible experiences in the world
+        </p>
+      </div>
+
+      <div class="section-content">
+        <div class="blogs-wrapper">
+
+          <div class="blogs-article blogs-left-articles">
+            <div class="left-article-image">
+              <img src="./images/bali.jpeg" alt="">
+            </div>
+            <div class="left-article-content">
+              <h3 class="content-title">
+                Wonderful Bali!
+              </h3>
+              <p class="content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores temporibus nemo porro, voluptas vel numquam fuga. Commodi obcaecati earum recusandae explicabo hic assumenda temporibus consequatur doloribus eum ratione! Provident voluptatem ut facilis eius vel voluptatum quisquam nobis consequatur officiis minima.
+              </p>
+              <p class="read-more">
+                Read More  >
+              </p>
+            </div>
+          </div>
+
+          <div class="blogs-article blogs-right-articles">
+            
+            <div class="right-article article-a">
+              <div class="right-article-image">
+                <img src="./images/italy.jpg" alt="">
+              </div>
+              <div class="right-article-content">
+                <h3 class="content-title">
+                  Beautiful Italy. Let's travel!
+                </h3>
+                <p class="content">
+                 Lorem ipsum dolor sit amet consectetur cilis libero architecto sunt repellat vero?
+                </p>
+                <p class="read-more">
+                  Read More >
+                </p>
+              </div>
+            </div>
+            <div class="right-article article-b">
+              <div class="right-article-image">
+                <img src="./images/eiffeltower.jpg" alt="">
+              </div>
+              <div class="right-article-content">
+                <h3 class="content-title">
+                  Romantic moments under Eiffel Tower
+                </h3>
+                <p class="content">
+                  Lorem ipsum dolor sit amet, consectetur ea! Quasi, doloribus.
+                </p>
+                <p class="read-more">
+                  Read More >
+                </p>
+              </div>
+            </div>
+            <div class="right-article article-b">
+              <div class="right-article-image">
+                <img src="./images/nepal.jpeg" alt="">
+              </div>
+              <div class="right-article-content">
+                <h3 class="content-title">
+                  The culture of Nepal
+                </h3>
+                <p class="content">
+                  Lorem ipsum dolor sit amet, consectetur ea! Quasi, doloribus.
+                </p>
+                <p class="read-more">
+                  Read More >
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">
+          Destination Gallery
+        </h2>
+        <span class="underline"></span>
+        <p class="section-desc">
+         Our photos gallery on trip
+        </p>
+      </div>
+      <div class="section-content">
+          <div class="image-gallery">
+              <div class="gallery-container">
+                  <div class="gallery-top">
+                      <div class="gallery-img gal-img-a">
+                          <img src="./images/travelcollage_images/1.jpg" alt="">
+                      </div>
+                      <div class="gallery-img gal-img-b">
+                          <img src="./images/travelcollage_images/2.jpg" alt="">
+                      </div>
+                      <div class="gallery-img gal-img-c">
+                          <img src="./images/travelcollage_images/3.jpg" alt="">
+                      </div>
+                      <div class="gallery-img gal-img-d">
+                          <img src="./images/travelcollage_images/4.jpg" alt="">
+                      </div>
+                      <div class="gallery-img gal-img-e">
+                          <img src="./images/travelcollage_images/5.jpg" alt="">
+                      </div>
+                  </div>
+                  
+              </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer-section">
+    <div class="container">
+      <div class="newsletter">
+        <div class="newsletter-wrapper">
+          <h2 class="newsletter-title section-title">
+            Our Newsletter
+          </h2>
+          <div class="email-subscription">
+            <div class="input-group">
+              <label for="emailField"><span class="emailLabel">Enter your email</span></label>
+              <input type="text" class="emailInputField" name = "emailField" id = "emailField" placeholder="johndoe@gmail.com">
+            </div>
+            <div class="subscriber">
+              <a href="#!" class="subscribe-btn btn btn--primary">
+                Subscribe
+              </a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+      <footer>
+
+        <div class="footer-wrapper">
+
+          <div class="footer-links company-links">
+            <h4 class="footer-links-header company-links-header">Follow us on:</h4>
+            <div class="social-links">
+              <div class="facebook">
+                <a href="#!"><img class="social-link-images" src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/></a>
+              </div>
+              <div class="twitter">
+                <a href="#!"><img class="social-link-images" src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
+              </div>
+              <div class="instagram">
+                <a href="#!"><img class="social-link-images" src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-links contact-info">
+            <h4 class="footer-links-header">Contact us at:</h4>
+            <ul class="contact-items">
+              <li class="contact-item">
+                <p >+58 123 1442 123</p>
+              </li>
+              <li class="contact-item">
+                <a href="#!">info@traveller.com</a>
+              </li>
+              
+            </ul>
+          </div>
+          
+        </div>
+      </footer>
+    </div>
+  </section>
+
+  <script>
+    var swiperPopular = new Swiper(".swiper-popular", {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      slidesPerGroup: 1,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        type: 'bullets',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".popular-button-next",
+        prevEl: ".popular-button-prev",
+      },
+      breakpoints: {
+       
+        710: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        1090: {
+          slidesPerView: 3,
+          spaceBetween: 10,
+        },
+        1590: {
+          slidesPerView: 4,
+          spaceBetween: 20,
+        },
+        1700: {
+          slidesPerView: 5,
+          spaceBetween: 10,
+        }
+      }
+    });
+
+    var swiperOffers = new Swiper(".swiper-offers", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      navigation: {
+        nextEl: ".offers-button-next",
+        prevEl: ".offers-button-prev",
+      },
+      breakpoints: {
+        650:{
+          slidesPerView: 2,
+        },
+        1050:{
+          slidesPerView: 3,
+        },
+        1300:{
+          slidesPerView: 4,
+        },
+        1700:{
+          slidesPerView: 5,
+        },
+      }
+
+    })
+  </script>
+</body>
+
+</html>
