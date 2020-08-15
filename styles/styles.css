@@ -200,6 +200,13 @@ header .container {
   font-family: "Philosopher", sans-serif;
   font-size: 3.5rem;
 }
+
+@media (min-width:600px){
+  .hero__title{
+    font-size: 4.62rem;
+  }
+}
+
 .hero__title,
 .hero__desc,
 .hero__cta {
