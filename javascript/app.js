@@ -19,3 +19,7 @@ navToggle.addEventListener('click', () => {
 navToggle.addEventListener('click', () => {
    nav-toggle.classList.toggle('active')
   })
+navbarLinks.addEventListener('click', ()=>
+{
+    navbarLinks.classList.toggle('active')
+})
